@@ -1,12 +1,13 @@
 class bro:
 	"""docstring for bro"""
-	def __init__(self,name,age):
+	def __init__(self,name,age,gender):
 		self.name=name
 		self.age=age
+		self.gender=gender
 	def info(self):
-		print("this dude is "+str(self.age)+" years old and is called "+self.name)
+		print("this "+self.gender+" is "+str(self.age)+" years old and is called "+self.name)
 
 
-firstbro=bro("mike",14)
+firstbro=bro("mike",14,"male")
 
 firstbro.info()
