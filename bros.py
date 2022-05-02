@@ -5,6 +5,8 @@ class bro:
 		self.age=age
 		self.gender=gender
 	def info(self):
+		if self.gender=="furry":
+			print("we got a furry")
 		print("this "+self.gender+" is "+str(self.age)+" years old and is called "+self.name)
 
 
